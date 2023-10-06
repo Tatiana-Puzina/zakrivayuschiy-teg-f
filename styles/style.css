@@ -78,21 +78,12 @@
   margin-block-end: 24px;
 }
 
-.header__theme-menu {
-}
-
-.theme-menu {
-}
-
 .theme-menu__list {
   display: flex;
   flex-direction: column;
   align-items: start;
   gap: 8px;
   padding-inline-start: 20px;
-}
-
-.theme-menu__item {
 }
 
 .theme-menu__button {
@@ -255,9 +246,8 @@
   transition: fill 0.3s 0.06s;
 }
 
-.like-icon.is-liked .core {
+.like-icon .core {
   fill: transparent;
-  transition-delay: fill 0.03s;
 }
 
 .card__icon-button:hover .core {
@@ -272,7 +262,7 @@
 
 .like-icon.is-liked .core {
   fill: var(--color-fill-heart);
-  transition: fill 0.3s;
+  transition: fill 0.3s 0.03s;
 }
 
 .main-body {
