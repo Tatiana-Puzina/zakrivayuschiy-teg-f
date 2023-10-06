@@ -391,7 +391,7 @@ dialog::backdrop {
   width: 25%;
   background-color: var(--bg-card);
   border: 2px solid var(--accent-color);
-  padding: 31px;
+  padding: 30px;
 }
 
 .dialog__window-card {
@@ -409,7 +409,13 @@ dialog::backdrop {
   border: 2px solid var(--accent-color);
 }
 
-@media (width<780px) {
+@media (max-width: 1000px) {
+  .dialog__window {
+    width: 60%;
+  }
+}
+
+@media (width<779px) {
   .container {
     width: 100%;
   }
@@ -417,5 +423,9 @@ dialog::backdrop {
     flex-direction: column;
     width: 85%;
     gap: 8px;
+  }
+
+  .dialog__window {
+    width: 85%;
   }
 }
