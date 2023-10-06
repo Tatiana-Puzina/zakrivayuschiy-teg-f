@@ -61,7 +61,7 @@
 }
 
 .header__title {
-  font-family: var(--font-accent, "PPressStart2P");
+  font-family: var(--fon-accent, "PPressStart2P");
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   font-style: normal;
   font-weight: 400;
@@ -71,7 +71,7 @@
 }
 
 .header__subtitle {
-  font-family: var(--font-accent, "PPressStart2P");
+  font-family: var(--fon-accent, "PPressStart2P");
   font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   text-transform: uppercase;
   font-weight: 400;
@@ -89,7 +89,7 @@
 .theme-menu__button {
   position: relative;
   color: inherit;
-  font-family: var(--font-accent, "PPressStart2P");
+  font-family: var(--fon-accent, "PPressStart2P");
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -154,7 +154,7 @@
   top: 25px;
   right: 25px;
   color: var(--accent-color, #000);
-  font-family: var(--font-accent);
+  font-family: var(--fon-accent);
   font-size: 14px;
   font-weight: 400;
   line-height: normal;
@@ -323,7 +323,7 @@
 .button__text {
   position: relative;
   color: var(--accent-color);
-  font-family: var(--font-accent);
+  font-family: var(--fon-accent);
   font-size: 14px;
   font-weight: 400;
   line-height: 150%;

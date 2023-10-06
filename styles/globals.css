@@ -45,10 +45,6 @@ button {
   cursor: pointer;
 }
 
-/* button:focus {
-  outline: none;
-} */
-
 ul,
 ol {
   list-style: none;

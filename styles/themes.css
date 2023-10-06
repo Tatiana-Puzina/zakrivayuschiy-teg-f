@@ -7,7 +7,7 @@
 
 :root.theme-dark {
   --font-main: "Inter";
-  --font-accent: "PPressStart2P";
+  --fon-accent: "PPressStart2P";
   --bg-color: #000;
   --accent-color: #00cc14;
   --wght-text: 465;
@@ -24,7 +24,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --font-main: "Inter";
-    --font-accent: "PPressStart2P";
+    --fon-accent: "PPressStart2P";
     --bg-color: #000;
     --accent-color: #00cc14;
     --wght-text: 465;
@@ -41,7 +41,7 @@
 
 :root.theme-light {
   --font-main: "Inter";
-  --font-accent: "PPressStart2P";
+  --fon-accent: "PPressStart2P";
   --bg-color: #fff;
   --accent-color: #000;
   --wght-text: 400;
@@ -58,7 +58,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --font-main: "Inter";
-    --font-accent: "PPressStart2P";
+    --fon-accent: "PPressStart2P";
     --bg-color: #fff;
     --accent-color: #000;
     --wght-text: 400;
