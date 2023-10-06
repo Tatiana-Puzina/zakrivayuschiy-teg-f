@@ -1,1 +1,17 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --font-main: "Inter";
+  --font-accent: "PPressStart2P";
+  --wght-text: 400;
+  --wght-title: 700;
+  --bg-color: #fff;
+  --accent-color: #000;
+  --bg-image: #d3d3d3;
+  --gradient-start: #e7e7e7;
+  --gradient-end: #1a1a1a;
+  --bg-card: #fff;
+  --color-stroke: #fff;
+  --color-text-hover: #fff;
+  --bg-color-hover-button: #fff;
+  --color-fill-heart: #ff0000;
+}
