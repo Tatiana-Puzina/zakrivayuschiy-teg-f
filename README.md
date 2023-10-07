@@ -1,4 +1,4 @@
 # zakrivayusghiy-teg
 
 Проект "Закрывающий тег"
-[Ссылка на проект](https://github.com/Tatiana-Puzina/zakrivayuschiy-teg-f.git)
+[Ссылка на проект](https://tatiana-puzina.github.io/zakrivayuschiy-teg-f/)
